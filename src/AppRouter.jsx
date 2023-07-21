@@ -6,6 +6,7 @@ export default function AppRouter() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App />} />
+                <Route path="*" element={<h1>404 Not found</h1>} />
             </Routes>
         </BrowserRouter>
     )
